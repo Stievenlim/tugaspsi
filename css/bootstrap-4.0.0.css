@@ -8971,6 +8971,13 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered td {
     border: 1px solid #ddd !important;
   }
+  .tabellemari {
+    width:100px;
+    height:100px;
+    margin-bottom:50px;
+    margin-left: 50px;
+    margin-right: 100px;
+  }
 }
 /*# sourceMappingURL=bootstrap.css.map */
 
