@@ -54,6 +54,37 @@ html {
   width: device-width;
 }
 
+.h8 {
+  font-family: sans-serif;
+  color: gray;
+}
+.center{
+  width: 150px;
+    margin: 40px auto;
+    
+  }
+
+.kirikanan{
+  margin-top: 200px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.bawah {
+  margin-top: 20px;
+}
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.putih {
+  color: #ffff;
+}
+
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }

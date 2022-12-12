@@ -20,15 +20,16 @@
               <li class="nav-item">
                 <a class="nav-link" href="index.html">Beranda <span class="sr-only">(current)</span></a>
               </li>
-              <li class="nav-item active">
+              <li class="nav-item ">
                 <a class="nav-link" href="admin.html">Admin</a>
               </li>
-              <li class="nav-item ">
+              <li class="nav-item active">
                   <a class="nav-link" href="stok.html">Stok</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                <div class="putih">Welcome, Admin Penjualan</div>
+              <div class="putih">Welcome, Admin Gudang </div>
+              <div> ... </div>
             </form>
           </div>
         </div>
@@ -42,7 +43,7 @@
                   <div class="row justify-content-center">
                     <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
       
-                      <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4"> Input Barang </p>
+                      <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4"> Input Stok Barang </p>
       
                       <form class="mx-1 mx-md-4">
       
@@ -53,10 +54,14 @@
                             <div></div>
                             <select class="form-select" aria-label="Default select example">
                                 <option selected>Pilih Kode</option>
-                                <option value="1">RTV</option>
-                                <option value="2">SB</option>
-                                <option value="3">SF</option>
-                                <option value="2">LS</option>
+                                <option value="1">RTV 001</option>
+                                <option value="1">RTV 002</option>
+                                <option value="2">SB 001</option>
+                                <option value="3">SB 002</option>
+                                <option value="2">SF 001</option>
+                                <option value="3">SF 002</option>
+                                <option value="2">LS 001</option>
+                                <option value="3">LS 002</option>
                               </select>
                           </div>
                         </div>
@@ -65,59 +70,26 @@
                           <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                           <div class="form-outline flex-fill mb-0">
                             <label>Nama barang</label>
-                            <input type="text" class="form-control" placeholder="Lemari Sliding">
+                            <input class="form-control" type="text" placeholder="Lemari Sliding TXWD 160 SSL" aria-label="Disabled input example" disabled>
                           </div>
                         </div>
                         
-                        <div class="bawah">
-                          <div class="mb-4">
-                          <i class="fas fa-key fa-lg me-3 fa-fw"></i>
-                          <div class="form-outline flex-fill mb-0">
-                                  <div class="mb-3">
-                                    <label for="exampleFormControlTextarea1" class="form-label">Deskripsi produk</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Lemari Pakaian Sliding TXWD 160 SSL dengan warna Brown Walnut menjadi solusi terbaik untuk kamar tidur anda."></textarea>
-                                  </div>
-                                  
-                          </div>
-                        </div> 
-
                         <div class="bawah">
                             <div class="mb-4">
                             <i class="fas fa-key fa-lg me-3 fa-fw"></i>
                             <div class="form-outline flex-fill mb-0">
                                 <label class="form-label" for="form3Example4cd">Stok barang</label>
-                                <input type="number" id="form3Example4cd" class="form-control" placeholder="1" />
+                                <input type="number" id="form3Example4cd" class="form-control" />
                             </div>
                         </div>
-
-                        <div class="bawah">
-                            <div class="mb-4">
-                            <i class="fas fa-key fa-lg me-3 fa-fw"></i>
-                            <div class="form-outline flex-fill mb-0">
-                                <div class="mb-3">
-                                  <label for="formFileSm" class="form-label">Foto produk</label>
-                                    <input class="form-control form-control-sm" id="formFileSm" type="file">
-                                  </div>
-                            </div>
+                        
+      
+                        <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                          <a href="stok.html">
+                            <button type="button" class="btn btn-success btn-lg">Simpan</button>
+                          </a>
                         </div>
- 
-                        <div class="bawah">
-                          <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
-                          <div class="form-outline flex-fill mb-0">
-                            <label>Harga barang</label>
-                            <input type="text" class="form-control" placeholder="1.000.000">
-                          </div>
-                        </div> 
-                          </div>
-
-                          <div class="bawah">
-                              <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                                <a href="admin.html">
-                                  <button type="button" class="btn btn-success btn-lg">Simpan</button>
-                                <a>
-                              </div>
-                          </div>
-                          
+      
                       </form>
       
                     </div>
